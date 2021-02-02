@@ -1,6 +1,6 @@
 <?php
 require 'SendMail.php';
 
-$sendMail = new SendMail();
+//$sendMail = new SendMail();
 
-$sendMail->send();
+//$sendMail->send();
