@@ -16,7 +16,7 @@ class SendMail {
     {
         $this->mail = new PHPMailer();
         //Server settings
-        $this->mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
+        //$this->mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
         $this->mail->isSMTP();                                            // Send using SMTP
         $this->mail->Host       = 'smtp.gmail.com';                    // Set the SMTP server to send through
         $this->mail->SMTPAuth   = true;                                   // Enable SMTP authentication
